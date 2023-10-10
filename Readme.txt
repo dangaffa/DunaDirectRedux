@@ -19,9 +19,9 @@ TAC Life SUpport - Various TAC Life Support compatibilities
 Kerbalism - Full Kerbalism compatibilities
 Snacks! - Various Snacks! compatibilities
 Remote Tech - Antenna modifications
+Cryo Tanks - Proper methane and hydrogen support
 
 Confirmed working with the addition of:
-Cryo Tanks
 Community Resource Pack
 
 Installation:
