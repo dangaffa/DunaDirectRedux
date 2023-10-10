@@ -1,0 +1,3510 @@
+MISSION
+{
+	id = e22772c2-af95-413d-8d0f-de8495ca290e
+	expansionVersion = 1.8.1
+	title = Duna Direct: The First Flight
+	briefing = Assemble a launch vehicle and send the Duna Direct vehicle to Duna. Conduct science on the surface and return safely to Kerbin.
+	author = bcink
+	modsBriefing = Duna Direct mod is required.
+	packName = direct_dunadirect
+	hardIcon = False
+	difficulty = Intermediate
+	isBriefingSet = True
+	seed = 1988909567
+	flag = MarsDirect/Flags/dunadirect_large
+	bannerMenu = default.png
+	bannerSuccess = default.png
+	bannerFail = default.png
+	isScoreEnabled = False
+	maxScore = 0
+	steamPublishedFileId = 1557258246
+	historyId = 83ab3c79-2a39-4c30-8eac-fe8a1aa5f17b
+	activeNodeID = 6b646f2c-84da-4d83-96df-f00afac16fd1
+	currentScore = 0
+	exportName = Mission-Duna Direct: The First Flight
+	missionNameAtLastExport = 
+	isStarted = False
+	isEnded = False
+	isSuccesful = False
+	briefingNodeActive = False
+	cameraLockMode = Flight
+	cameraLockOptions = Unlock
+	SITUATION
+	{
+		startType = VAB
+		startVessel = 873520879
+		autoGenerateCrew = True
+		startUT = 0
+		resourceSeed = 487238258
+		rocMissionSeed = 1910819612
+		showBriefing = True
+		instructorName = Instructor_Wernher
+		vintageSuit = False
+		ROSTER
+		{
+			KERBAL
+			{
+				name = Jebediah Kerman
+				gender = Male
+				type = Crew
+				trait = Pilot
+				brave = 0.5
+				dumb = 0.5
+				badS = True
+				veteran = True
+				tour = False
+				state = Available
+				inactive = False
+				inactiveTimeEnd = 0
+				gExperienced = 0
+				outDueToG = False
+				ToD = 0
+				idx = 0
+				extraXP = 0
+				hasHelmetOn = False
+				hasNeckRingOn = False
+				lightR = 1
+				lightG = 0.5176
+				lightB = 0
+				completedFirstEVA = False
+				suit = Default
+				hero = True
+				CAREER_LOG
+				{
+					flight = 0
+					0 = Training5,Kerbin
+				}
+				FLIGHT_LOG
+				{
+					flight = 0
+				}
+			}
+			KERBAL
+			{
+				name = Bill Kerman
+				gender = Male
+				type = Crew
+				trait = Engineer
+				brave = 0.5
+				dumb = 0.800000012
+				badS = False
+				veteran = True
+				tour = False
+				state = Available
+				inactive = False
+				inactiveTimeEnd = 0
+				gExperienced = 0
+				outDueToG = False
+				ToD = 0
+				idx = 1
+				extraXP = 0
+				hasHelmetOn = False
+				hasNeckRingOn = False
+				lightR = 1
+				lightG = 0.5176
+				lightB = 0
+				completedFirstEVA = False
+				suit = Default
+				hero = True
+				CAREER_LOG
+				{
+					flight = 0
+					0 = Training5,Kerbin
+				}
+				FLIGHT_LOG
+				{
+					flight = 0
+				}
+			}
+			KERBAL
+			{
+				name = Bob Kerman
+				gender = Male
+				type = Crew
+				trait = Scientist
+				brave = 0.300000012
+				dumb = 0.100000001
+				badS = False
+				veteran = True
+				tour = False
+				state = Available
+				inactive = False
+				inactiveTimeEnd = 0
+				gExperienced = 0
+				outDueToG = False
+				ToD = 0
+				idx = 2
+				extraXP = 0
+				hasHelmetOn = False
+				hasNeckRingOn = False
+				lightR = 1
+				lightG = 0.5176
+				lightB = 0
+				completedFirstEVA = False
+				suit = Default
+				hero = True
+				CAREER_LOG
+				{
+					flight = 0
+					0 = Training5,Kerbin
+				}
+				FLIGHT_LOG
+				{
+					flight = 0
+				}
+			}
+			KERBAL
+			{
+				name = Valentina Kerman
+				gender = Female
+				type = Crew
+				trait = Scientist
+				brave = 0.550000012
+				dumb = 0.400000006
+				badS = True
+				veteran = True
+				tour = False
+				state = Available
+				inactive = False
+				inactiveTimeEnd = 0
+				gExperienced = 0
+				outDueToG = False
+				ToD = 0
+				idx = 3
+				extraXP = 0
+				hasHelmetOn = False
+				hasNeckRingOn = False
+				lightR = 1
+				lightG = 0.5176
+				lightB = 0
+				completedFirstEVA = False
+				suit = Default
+				hero = True
+				CAREER_LOG
+				{
+					flight = 0
+					0 = Training5,Kerbin
+				}
+				FLIGHT_LOG
+				{
+					flight = 0
+				}
+			}
+		}
+		PARAMETERS
+		{
+			preset = Normal
+			FLIGHT
+			{
+				CanQuickSave = True
+				CanQuickLoad = True
+				CanAutoSave = True
+				CanUseMap = True
+				CanSwitchVesselsNear = True
+				CanSwitchVesselsFar = True
+				CanTimeWarpHigh = True
+				CanTimeWarpLow = True
+				CanEVA = True
+				CanIVA = True
+				CanBoard = True
+				CanRestart = True
+				CanLeaveToEditor = True
+				CanLeaveToTrackingStation = True
+				CanLeaveToSpaceCenter = True
+				CanLeaveToMainMenu = True
+			}
+			EDITOR
+			{
+				CanSave = True
+				CanLoad = True
+				CanStartNew = True
+				CanLaunch = True
+				CanLeaveToSpaceCenter = True
+				CanLeaveToMainMenu = False
+				startUpMode = 0
+				craftFileToLoad = 
+			}
+			TRACKINGSTATION
+			{
+				CanFlyVessel = True
+				CanAbortVessel = True
+				CanLeaveToSpaceCenter = True
+				CanLeaveToMainMenu = False
+			}
+			SPACECENTER
+			{
+				CanGoInVAB = True
+				CanGoInSPH = True
+				CanGoInTrackingStation = True
+				CanLaunchAtPad = True
+				CanLaunchAtRunway = True
+				CanGoToAdmin = False
+				CanGoToAstronautC = True
+				CanGoToMissionControl = False
+				CanGoToRnD = False
+				CanSelectFlag = True
+				CanLeaveToMainMenu = True
+			}
+			DIFFICULTY
+			{
+				AutoHireCrews = False
+				MissingCrewsRespawn = True
+				RespawnTimer = 7200
+				BypassEntryPurchaseAfterResearch = True
+				AllowStockVessels = False
+				IndestructibleFacilities = False
+				ResourceAbundance = 1
+				ReentryHeatScale = 1
+				EnableCommNet = True
+				AllowOtherLaunchSites = False
+			}
+			CAREER
+			{
+				TechTreeUrl = GameData/Squad/Resources/TechTree.cfg
+				StartingFunds = 25000
+				StartingScience = 0
+				StartingReputation = 0
+				FundsGainMultiplier = 1
+				RepGainMultiplier = 1
+				ScienceGainMultiplier = 1
+				FundsLossMultiplier = 1
+				RepLossMultiplier = 1
+				RepLossDeclined = 1
+			}
+			CommNetParams
+			{
+				requireSignalForControl = False
+				plasmaBlackout = False
+				rangeModifier = 1
+				DSNModifier = 1
+				occlusionMultiplierVac = 0.9
+				occlusionMultiplierAtm = 0.75
+				enableGroundStations = True
+			}
+			BTWCustomParams
+			{
+				enabled = True
+				hideButton = False
+				hideButtonInFlight = True
+				hideDropdownButtonInFlight = False
+				lockWindowPosInFlight = True
+				lockWindowPos = True
+			}
+			AdvancedParams
+			{
+				EnableKerbalExperience = True
+				ImmediateLevelUp = False
+				AllowNegativeCurrency = False
+				PressurePartLimits = False
+				GPartLimits = False
+				GKerbalLimits = False
+				KerbalGToleranceMult = 1
+				ResourceTransferObeyCrossfeed = False
+				ActionGroupsAlways = False
+				BuildingImpactDamageMult = 0.05
+				PartUpgradesInSandbox = False
+				PartUpgradesInCareer = True
+				PartUpgradesInMission = False
+				EnableFullSASInSandbox = False
+			}
+			MissionParamsGeneral
+			{
+				enableFunding = False
+				startingFunds = 100000
+				spacer = 
+				enableKerbalLevels = False
+				kerbalLevelPilot = 4
+				kerbalLevelScientist = 4
+				kerbalLevelEngineer = 4
+				spacer2 = 
+				preventVesselRecovery = False
+			}
+			MissionParamsExtras
+			{
+				facilityOpenAC = False
+				astronautHiresAreFree = True
+				spacer = 
+				facilityOpenEditor = False
+				launchSitesOpen = True
+				spacer2 = 
+				cheatsEnabled = False
+			}
+			MissionParamsFacilities
+			{
+				facilityLevelAdmin = 3
+				facilityLevelAC = 3
+				facilityLevelLaunchpad = 3
+				facilityLevelMC = 3
+				facilityLevelRD = 3
+				facilityLevelRunway = 3
+				facilityLevelSPH = 3
+				facilityLevelTS = 3
+				facilityLevelVAB = 3
+			}
+			TC
+			{
+				showStockTooltips = True
+				hoverTimeout = 0.5
+				debugMode = False
+				oldDebugMode = False
+			}
+		}
+		SAP_PARAMETERS
+		{
+			parametersDisplayedInSAP = startUT
+			parametersDisplayedInSAP = partFilter
+			parametersDisplayedInSAP = autoGenerateCrew
+			parametersDisplayedInSAP = gameParameters
+			parametersDisplayedInSAP = resourceSeed
+		}
+	}
+	SCOREMODULES
+	{
+	}
+	AWARDMODULES
+	{
+		AWARDMODULE
+		{
+			name = AwardModule_MissionTime
+			id = 182
+			awardID = MissionTime
+			enabled = False
+			score = 0
+			missionTime = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_Fuel
+			id = 183
+			awardID = Fuel
+			enabled = False
+			score = 0
+			resourceName = LiquidFuel
+			resourceAmount = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_KerbalsSurvived
+			id = 184
+			awardID = KerbalsSurvived
+			enabled = True
+			score = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_KerbalsDied
+			id = 185
+			awardID = KerbalsDied
+			enabled = False
+			score = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_TraveledLessThan
+			id = 186
+			awardID = TraveledLessThan
+			enabled = False
+			score = 0
+			distance = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_TraveledMoreThan
+			id = 187
+			awardID = TraveledMoreThan
+			enabled = False
+			score = 0
+			distance = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_VesselsUsed
+			id = 188
+			awardID = VesselsUsed
+			enabled = False
+			score = 0
+			vesselsUsed = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_LandedOn
+			id = 189
+			awardID = LandedOn
+			enabled = False
+			score = 0
+			vesselID = 0
+			distance = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_PlanetsLanded
+			id = 190
+			awardID = PlanetsLanded
+			enabled = False
+			score = 0
+			planetsLanded = 2
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_Score
+			id = 191
+			awardID = BronzeAward
+			enabled = True
+			score = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_Score
+			id = 192
+			awardID = SilverAward
+			enabled = True
+			score = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_Score
+			id = 193
+			awardID = GoldAward
+			enabled = True
+			score = 0
+		}
+	}
+	NODES
+	{
+		NODE
+		{
+			title = Duna Direct
+			id = 6b646f2c-84da-4d83-96df-f00afac16fd1
+			description = Be the first agency to launch Kerbals to and from Duna.
+			category = Start
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 0,0
+			isStartNode = True
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = 
+			basicNodeIconURL = 
+			nodeColor = #FF4D4D
+			missionEndOptions = Success
+			TONODEIDS
+			{
+				nodeID = 3c1efb75-d9ee-4b45-9370-f2662172881a
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = MissionSituation
+					parameter = startUT
+				}
+			}
+			DOCKEDNODEIDS
+			{
+				nodeID = 87128fa6-8e3a-4611-9677-c949888af449
+			}
+		}
+		NODE
+		{
+			title = Pilot Check
+			id = 3c1efb75-d9ee-4b45-9370-f2662172881a
+			description = Verifying the vessel has a pilot
+			category = Kerbal
+			showScreenMessage = True
+			msgTime = 9
+			editorPosition = 410.357178,-2.26190186
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = True
+			basicNodeSource = VeselCrewCount
+			basicNodeIconURL = vessel-crew-count
+			nodeColor = #08AE55
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 6b646f2c-84da-4d83-96df-f00afac16fd1
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = fdc2cd00-1c81-424a-8331-4f1a40c89147
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestVesselCrewCount
+						title = Crew Count
+						parametersDisplayedInSAP = crewAmount
+						parametersDisplayedInSAP = crewType
+						parametersDisplayedInSAP = comparisonOperator
+						parametersDisplayedInSAP = vesselID
+						vesselID = 0
+						crewAmount = 1
+						traitName = Pilot
+						comparisonOperator = Equal
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestVesselCrewCount
+					parameter = crewAmount
+				}
+				MODULE_PARAMETER
+				{
+					module = TestVesselCrewCount
+					parameter = crewType
+				}
+				MODULE_PARAMETER
+				{
+					module = TestVesselCrewCount
+					parameter = vesselID
+				}
+			}
+		}
+		NODE
+		{
+			title = Engineer Check
+			id = fdc2cd00-1c81-424a-8331-4f1a40c89147
+			description = Verifying the vessel has an enggineer
+			category = Kerbal
+			showScreenMessage = True
+			msgTime = 9
+			editorPosition = 430.809448,176.142883
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = True
+			basicNodeSource = VeselCrewCount
+			basicNodeIconURL = vessel-crew-count
+			nodeColor = #08AE55
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 3c1efb75-d9ee-4b45-9370-f2662172881a
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = a7be174a-1948-4018-a468-5b80a718d9af
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestVesselCrewCount
+						title = Crew Count
+						parametersDisplayedInSAP = crewAmount
+						parametersDisplayedInSAP = crewType
+						parametersDisplayedInSAP = comparisonOperator
+						parametersDisplayedInSAP = vesselID
+						vesselID = 0
+						crewAmount = 1
+						traitName = Engineer
+						comparisonOperator = Equal
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestVesselCrewCount
+					parameter = crewAmount
+				}
+				MODULE_PARAMETER
+				{
+					module = TestVesselCrewCount
+					parameter = crewType
+				}
+				MODULE_PARAMETER
+				{
+					module = TestVesselCrewCount
+					parameter = vesselID
+				}
+			}
+		}
+		NODE
+		{
+			title = Scientists Check
+			id = a7be174a-1948-4018-a468-5b80a718d9af
+			description = Verifying the vessel has two scientists
+			category = Kerbal
+			showScreenMessage = True
+			msgTime = 9
+			editorPosition = 431.595215,340.5
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = True
+			basicNodeSource = VeselCrewCount
+			basicNodeIconURL = vessel-crew-count
+			nodeColor = #08AE55
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = fdc2cd00-1c81-424a-8331-4f1a40c89147
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = b514af52-7ceb-4151-b077-6934f28c2e86
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestVesselCrewCount
+						title = Crew Count
+						parametersDisplayedInSAP = crewAmount
+						parametersDisplayedInSAP = crewType
+						parametersDisplayedInSAP = comparisonOperator
+						parametersDisplayedInSAP = vesselID
+						vesselID = 0
+						crewAmount = 2
+						traitName = Scientist
+						comparisonOperator = Equal
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestVesselCrewCount
+					parameter = crewAmount
+				}
+				MODULE_PARAMETER
+				{
+					module = TestVesselCrewCount
+					parameter = crewType
+				}
+				MODULE_PARAMETER
+				{
+					module = TestVesselCrewCount
+					parameter = vesselID
+				}
+			}
+		}
+		NODE
+		{
+			title = Reach Duna SOI
+			id = 8eb81735-7c09-4219-bbf2-edcf267e0278
+			description = Reach Duna's sphere of influence
+			category = Location
+			showScreenMessage = True
+			msgTime = 9
+			editorPosition = 3300,75
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = ReachSOI
+			basicNodeIconURL = reach-soi
+			nodeColor = #FF4D4D
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 30416ee2-72e8-4cfd-9a1a-f368fb930ddb
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 6909555f-1ba1-44b3-b168-43ad6928c85d
+				nodeID = e5758ab7-0080-4258-a0ff-c58d7fd68032
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestSOIReached
+						title = SOI Reached
+						parametersDisplayedInSAP = vesselID
+						parametersDisplayedInSAP = body
+						vesselID = 0
+						bodyName = Duna
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestSOIReached
+					parameter = vesselID
+				}
+				MODULE_PARAMETER
+				{
+					module = TestSOIReached
+					parameter = body
+				}
+			}
+		}
+		NODE
+		{
+			title = Land On Duna
+			id = 6909555f-1ba1-44b3-b168-43ad6928c85d
+			description = Land Duna Direct on Duna
+			category = Location
+			showScreenMessage = True
+			msgTime = 9
+			editorPosition = 3609.8335,-37.3809586
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = Landed
+			basicNodeIconURL = vessel-landed
+			nodeColor = #FF4D4D
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 8eb81735-7c09-4219-bbf2-edcf267e0278
+					connectorColor = #FFFFFF
+				}
+				FROMNODE
+				{
+					nodeID = e5758ab7-0080-4258-a0ff-c58d7fd68032
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = e731eb99-8ccf-45b2-9a93-c52a30520e40
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestVesselSituationLanded
+						title = Landed Vessel
+						parametersDisplayedInSAP = locationSituation
+						parametersDisplayedInSAP = vesselID
+						vesselID = 0
+						stabilizationTime = 10
+						locationChoice = biomeData
+						LAUNCHSITEDATA = LaunchPad
+						surfaceVelocity = 0.10000000149011612
+						ignoreSurfaceVelocity = True
+						BODYDATA
+						{
+							bodyName = AnyValid
+						}
+						BIOMEDATA
+						{
+							bodyName = Duna
+						}
+						GROUNDAREA
+						{
+							bodyName = Kerbin
+							lat = 0
+							lon = 0
+							alt = 0
+							radius = 150000
+						}
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestVesselSituationLanded
+					parameter = locationSituation
+				}
+				MODULE_PARAMETER
+				{
+					module = TestVesselSituationLanded
+					parameter = vesselID
+				}
+			}
+		}
+		NODE
+		{
+			title = Science Experiment
+			id = 338b9110-dcb4-47d0-a3a7-8406c4b1ff2d
+			description = Perform a science experiment
+			category = ResourcesAndScience
+			showScreenMessage = True
+			msgTime = 5
+			editorPosition = 4500,75
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = ScienceExperiment
+			basicNodeIconURL = science-experiment
+			nodeColor = #FF4D4D
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 9d483a40-cacd-449b-9068-fd3d1d22c039
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = aaae4e81-f452-4c6b-9d45-994258a12f1c
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestScienceExperiment
+						title = Science Experiment
+						parametersDisplayedInSAP = experimentID
+						parametersDisplayedInSAP = experimentSituation
+						parametersDisplayedInSAP = DeployorReceived
+						experimentSituation = SrfLanded
+						testsSuccessful = False
+						DeployorReceived = Deployed
+						BIOMEDATA
+						{
+							bodyName = Duna
+						}
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestScienceExperiment
+					parameter = experimentSituation
+				}
+				MODULE_PARAMETER
+				{
+					module = TestScienceExperiment
+					parameter = DeployorReceived
+				}
+			}
+		}
+		NODE
+		{
+			title = Display Message
+			id = bebea0a0-fff7-41c5-a8bc-afd69247d333
+			description = Repack parachutes!
+			category = Utility
+			showScreenMessage = True
+			msgTime = 5
+			editorPosition = 7891.0957,-109.357132
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = Message
+			basicNodeIconURL = display-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = ad3cfcc2-e76c-4eb6-a068-82ecc3eddf04
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = c727306e-a8ac-4211-8a6c-492461e895f7
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionMessage
+					title = Display Message
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = duration
+					parametersDisplayedInSAP = style
+					restartOnSceneLoad = False
+					isRunning = False
+					message = Reminder to repack parachutes before Kerbin reentry!
+					duration = 9
+					style = UPPER_CENTER
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionMessage
+					parameter = message
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionMessage
+					parameter = duration
+				}
+			}
+		}
+		NODE
+		{
+			title = Change Vessel Resource Levels
+			id = aaae4e81-f452-4c6b-9d45-994258a12f1c
+			description = Sabatier conversion of liquid fuel generation for 1st stage complete.
+			category = Vessel
+			showScreenMessage = True
+			msgTime = 10
+			editorPosition = 4800,75
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = ActionPartResourceAmount
+			basicNodeIconURL = change-part-resource-levels
+			nodeColor = #3F8CED
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 338b9110-dcb4-47d0-a3a7-8406c4b1ff2d
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 3ca17bf1-1a6e-438c-b115-e9ba6856b72f
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionPartResourceAmount
+					title = Change Vessel Resource Levels
+					parametersDisplayedInSAP = resourceName
+					parametersDisplayedInSAP = adjustAmount
+					parametersDisplayedInSAP = vesselID
+					restartOnSceneLoad = False
+					isRunning = False
+					vesselID = 0
+					resourceName = LiquidFuel
+					adjustAmount = 887.369995
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionPartResourceAmount
+					parameter = resourceName
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionPartResourceAmount
+					parameter = adjustAmount
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionPartResourceAmount
+					parameter = vesselID
+				}
+			}
+		}
+		NODE
+		{
+			title = Change Vessel Resource Levels
+			id = 3ca17bf1-1a6e-438c-b115-e9ba6856b72f
+			description = Sabatier conversion of oxidizer fuel generation for 1st stage complete.
+			category = Vessel
+			showScreenMessage = True
+			msgTime = 10
+			editorPosition = 5100,75
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = ActionPartResourceAmount
+			basicNodeIconURL = change-part-resource-levels
+			nodeColor = #3F8CED
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = aaae4e81-f452-4c6b-9d45-994258a12f1c
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 55855c76-30ad-413c-bbac-f02e90843d2a
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionPartResourceAmount
+					title = Change Vessel Resource Levels
+					parametersDisplayedInSAP = resourceName
+					parametersDisplayedInSAP = adjustAmount
+					parametersDisplayedInSAP = vesselID
+					restartOnSceneLoad = False
+					isRunning = False
+					vesselID = 0
+					resourceName = Oxidizer
+					adjustAmount = 1210
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionPartResourceAmount
+					parameter = resourceName
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionPartResourceAmount
+					parameter = adjustAmount
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionPartResourceAmount
+					parameter = vesselID
+				}
+			}
+		}
+		NODE
+		{
+			title = Reach Altitude
+			id = ad3cfcc2-e76c-4eb6-a068-82ecc3eddf04
+			description = Launch towards Kerbin
+			category = Location
+			showScreenMessage = True
+			msgTime = 5
+			editorPosition = 7539.33398,66.5714111
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = True
+			basicNodeSource = VesselAltitudeGoal
+			basicNodeIconURL = test-altitude
+			nodeColor = #FF4D4D
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 11a0560b-bdaf-4656-9507-b64ab869d69e
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = c727306e-a8ac-4211-8a6c-492461e895f7
+				nodeID = bebea0a0-fff7-41c5-a8bc-afd69247d333
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestVesselAltitude
+						title = Test Altitude
+						parametersDisplayedInSAP = altitude
+						parametersDisplayedInSAP = useRadarAltimiter
+						parametersDisplayedInSAP = vesselID
+						vesselID = 0
+						altitude = 50000
+						useRadarAltimiter = True
+						comparisonOperator = GreaterThan
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestVesselAltitude
+					parameter = altitude
+				}
+				MODULE_PARAMETER
+				{
+					module = TestVesselAltitude
+					parameter = useRadarAltimiter
+				}
+			}
+		}
+		NODE
+		{
+			title = Reach Kerbin's SOI
+			id = c727306e-a8ac-4211-8a6c-492461e895f7
+			description = Enter Kerbin's sphere of influence
+			category = Location
+			showScreenMessage = True
+			msgTime = 5
+			editorPosition = 7895,113
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = ReachSOI
+			basicNodeIconURL = reach-soi
+			nodeColor = #73D2D6
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = ad3cfcc2-e76c-4eb6-a068-82ecc3eddf04
+					connectorColor = #FFFFFF
+				}
+				FROMNODE
+				{
+					nodeID = bebea0a0-fff7-41c5-a8bc-afd69247d333
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = ed20f4b2-0f2a-4873-bfc6-1ec4c6c5a7a1
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestSOIReached
+						title = SOI Reached
+						parametersDisplayedInSAP = vesselID
+						parametersDisplayedInSAP = body
+						vesselID = 0
+						bodyName = Kerbin
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestSOIReached
+					parameter = vesselID
+				}
+				MODULE_PARAMETER
+				{
+					module = TestSOIReached
+					parameter = body
+				}
+			}
+		}
+		NODE
+		{
+			title = Land on kerbin
+			id = d6cc7ade-9553-44e4-9ae1-806e2087f3cc
+			description = Land the KRV on Kerbin
+			category = Location
+			showScreenMessage = True
+			msgTime = 5
+			editorPosition = 8253,-13
+			isStartNode = False
+			isEndNode = True
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = Landed
+			basicNodeIconURL = vessel-landed
+			nodeColor = #73D2D6
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = ed20f4b2-0f2a-4873-bfc6-1ec4c6c5a7a1
+					connectorColor = #FFFFFF
+				}
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestVesselSituationLanded
+						title = Landed Vessel
+						parametersDisplayedInSAP = locationSituation
+						parametersDisplayedInSAP = vesselID
+						vesselID = 0
+						stabilizationTime = 3
+						locationChoice = bodyData
+						LAUNCHSITEDATA = LaunchPad
+						surfaceVelocity = 0.10000000149011612
+						ignoreSurfaceVelocity = True
+						BODYDATA
+						{
+							bodyName = Kerbin
+						}
+						BIOMEDATA
+						{
+							bodyName = Kerbin
+						}
+						GROUNDAREA
+						{
+							bodyName = Kerbin
+							lat = 0
+							lon = 0
+							alt = 0
+							radius = 150000
+						}
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestVesselSituationLanded
+					parameter = locationSituation
+				}
+				MODULE_PARAMETER
+				{
+					module = TestVesselSituationLanded
+					parameter = vesselID
+				}
+			}
+		}
+		NODE
+		{
+			title = Fuel Conversion Message
+			id = 55855c76-30ad-413c-bbac-f02e90843d2a
+			description = Fuel conversion complete!
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 5400,75
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = DialogMessage
+			basicNodeIconURL = dialog-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 3ca17bf1-1a6e-438c-b115-e9ba6856b72f
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 384ad33f-48a8-4e2b-b3f0-c1e04d65e9b7
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionDialogMessage
+					title = Dialog Message
+					parametersDisplayedInSAP = messageHeading
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = missionInstructor
+					restartOnSceneLoad = False
+					isRunning = False
+					messageHeading = Fuel conversion complete!
+					message = Commander, sabatier fuel conversion has completed. We are ready for launch.
+					instructorName = Instructor_Bill_MaleVeteran
+					vintageSuit = False
+					textAreaSize = 135
+					pauseMission = True
+					screenArea = Center
+					autoClose = False
+					autoCloseTimeOut = 20
+					isBriefingMessage = False
+					autoGrowDialogHeight = False
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionDialogMessage
+					parameter = missionInstructor
+				}
+			}
+		}
+		NODE
+		{
+			title = Spawn Vessel
+			id = 87128fa6-8e3a-4611-9677-c949888af449
+			description = Spawn a Vessel somewhere in the universe
+			category = Spawnable
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 125,0
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = CreateVessel
+			basicNodeIconURL = create-vessel
+			nodeColor = #C3F948
+			dockParentNodeID = 6b646f2c-84da-4d83-96df-f00afac16fd1
+			missionEndOptions = Success
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionCreateVessel
+					title = Spawn Vessel
+					parametersDisplayedInSAP = vesselSituation
+					parametersDisplayedInSAP = partFilter
+					restartOnSceneLoad = False
+					isRunning = False
+					VESSELSITUATION
+					{
+						ship = Duna Direct
+						vesselDescription = Duna Direct lander and return vehicle
+						playerCreated = True
+						persistentId = 873520879
+						craftFile = 
+						focusonSpawn = True
+						launched = False
+						readyToLaunch = False
+						autoGenerateCrew = True
+						requiredParts = MD-Stage2
+						requiredParts = MD-Stage1
+						requiredParts = MD-Stage2Engines
+						requiredParts = MD-Stage1Engines
+						requiredParts = MD-Legs
+						requiredParts = MD-Heatshield
+						requiredParts = MD-Antenna
+						requiredParts = MD-Ladder
+						requiredParts = MD-Dockingport
+						LOCATION
+						{
+							sit = PRELAUNCH
+							launchSite = LaunchPad
+							facility = VAB
+							brakesOn = True
+							GROUNDPOINT
+							{
+								bodyName = Kerbin
+								gizmoIcon = Rocket
+								lat = 0.12714063830453376
+								lon = -74.540513829850937
+								alt = 0
+								rot = 0,0,0
+								splashed = True
+							}
+							ORBIT
+							{
+								SMA = 750000
+								ECC = 0
+								INC = 0.0001
+								LPE = 0
+								LAN = 0
+								MNA = 0
+								EPH = 0
+								REF = 1
+								editorRotation = 116.68493695560531
+							}
+						}
+						MODULES
+						{
+							MODULE
+							{
+								name = VesselRestriction_Crew
+								id = 227
+								crewType = Engineers
+								comparisonOperator = Equal
+								crewCount = 1
+							}
+							MODULE
+							{
+								name = VesselRestriction_Crew
+								id = 235
+								crewType = Scientists
+								comparisonOperator = Equal
+								crewCount = 2
+							}
+							MODULE
+							{
+								name = VesselRestriction_Crew
+								id = 243
+								crewType = Pilots
+								comparisonOperator = Equal
+								crewCount = 1
+							}
+						}
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionCreateVessel
+					parameter = vesselSituation
+				}
+			}
+		}
+		NODE
+		{
+			title = Splash landing on Kerbin
+			id = a03b4f57-9998-46ac-b548-08c40976b500
+			description = Check if a vessel is splashed down
+			category = Location
+			showScreenMessage = True
+			msgTime = 5
+			editorPosition = 8411.38086,224.452362
+			isStartNode = False
+			isEndNode = True
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = SplashDown
+			basicNodeIconURL = vessel-splashed
+			nodeColor = #73D2D6
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = ed20f4b2-0f2a-4873-bfc6-1ec4c6c5a7a1
+					connectorColor = #FFFFFF
+				}
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestVesselSituationSplashed
+						title = Splashed Vessel
+						parametersDisplayedInSAP = locationSituation
+						parametersDisplayedInSAP = vesselID
+						vesselID = 0
+						stabilizationTime = 1
+						locationChoice = bodyData
+						LAUNCHSITEDATA = LaunchPad
+						surfaceVelocity = 0.10000000149011612
+						ignoreSurfaceVelocity = True
+						BODYDATA
+						{
+							bodyName = Kerbin
+						}
+						BIOMEDATA
+						{
+							bodyName = Kerbin
+						}
+						GROUNDAREA
+						{
+							bodyName = Kerbin
+							lat = 0
+							lon = 0
+							alt = 0
+							radius = 150000
+						}
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestVesselSituationSplashed
+					parameter = locationSituation
+				}
+				MODULE_PARAMETER
+				{
+					module = TestVesselSituationSplashed
+					parameter = vesselID
+				}
+			}
+		}
+		NODE
+		{
+			title = Landing Message
+			id = e731eb99-8ccf-45b2-9a93-c52a30520e40
+			description = Congratulations!
+			category = Utility
+			showScreenMessage = True
+			msgTime = 8
+			editorPosition = 3902.88086,78.0240021
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = DialogMessage
+			basicNodeIconURL = dialog-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 6909555f-1ba1-44b3-b168-43ad6928c85d
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 9d483a40-cacd-449b-9068-fd3d1d22c039
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionDialogMessage
+					title = Dialog Message
+					parametersDisplayedInSAP = messageHeading
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = missionInstructor
+					restartOnSceneLoad = False
+					isRunning = False
+					messageHeading = Congratulations on landing!
+					message = Congratulations on being the first Kerbals to land on Duna! This day will be remebered.
+					instructorName = Instructor_Wernher
+					vintageSuit = False
+					textAreaSize = 135
+					pauseMission = True
+					screenArea = Center
+					autoClose = False
+					autoCloseTimeOut = 20
+					isBriefingMessage = False
+					autoGrowDialogHeight = False
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionDialogMessage
+					parameter = missionInstructor
+				}
+			}
+		}
+		NODE
+		{
+			title = Switch to IVA view
+			id = 9d483a40-cacd-449b-9068-fd3d1d22c039
+			description = Change and Lock the camera mode for the player
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 4200,75
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = SetCamera
+			basicNodeIconURL = camera-mode-action-node
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = e731eb99-8ccf-45b2-9a93-c52a30520e40
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 338b9110-dcb4-47d0-a3a7-8406c4b1ff2d
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionSetCamera
+					title = Camera Mode
+					parametersDisplayedInSAP = cameraLockMode
+					parametersDisplayedInSAP = cameraLockOptions
+					restartOnSceneLoad = False
+					isRunning = False
+					cameraTypeOptions = IVA
+					cameraLockOptions = Unlock
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionSetCamera
+					parameter = cameraLockMode
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionSetCamera
+					parameter = cameraLockOptions
+				}
+			}
+		}
+		NODE
+		{
+			title = Gear Failure
+			id = 6b68812d-758a-4cdc-8472-a8bbd2ad1f85
+			description = Trigger landing gear failure
+			category = Vessel
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 2700,75
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = PartFailure
+			basicNodeIconURL = fail-part
+			nodeColor = #3F8CED
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = bd35a4c6-9d85-4da4-bbdd-ef402d4b8289
+					connectorColor = #FFFFFF
+				}
+				FROMNODE
+				{
+					nodeID = 3238c0b5-fdae-42da-8f01-08e2c1c6ce86
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 30416ee2-72e8-4cfd-9a1a-f368fb930ddb
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionPartFailure
+					title = Fail Part
+					parametersDisplayedInSAP = vesselPartIDs
+					parametersDisplayedInSAP = Modules
+					restartOnSceneLoad = False
+					isRunning = False
+					partPersistentId = 0
+					vesselPersistentId = 873520879
+					partName = Any
+					MODULES
+					{
+						MODULE
+						{
+							name = FailureWheelDeploymentStuck
+							id = 409
+							canBeRepaired = True
+							adjusterID = d43ae99f-1a23-44dc-81ad-9068a5e50973
+							stuckState = Retracted
+						}
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionPartFailure
+					parameter = vesselPartIDs
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionPartFailure
+					parameter = Modules
+				}
+			}
+		}
+		NODE
+		{
+			title = Display Message
+			id = 3238c0b5-fdae-42da-8f01-08e2c1c6ce86
+			description = Left Kerbin sphere of influence
+			category = Utility
+			showScreenMessage = True
+			msgTime = 5
+			editorPosition = 2676.11914,368.285736
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = True
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = Message
+			basicNodeIconURL = display-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = bd35a4c6-9d85-4da4-bbdd-ef402d4b8289
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 6b68812d-758a-4cdc-8472-a8bbd2ad1f85
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionMessage
+					title = Display Message
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = duration
+					parametersDisplayedInSAP = style
+					restartOnSceneLoad = False
+					isRunning = False
+					message = You have left Kerbin's sphere of influence!
+					duration = 8
+					style = UPPER_LEFT
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionMessage
+					parameter = message
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionMessage
+					parameter = duration
+				}
+			}
+		}
+		NODE
+		{
+			title = Leave Kerbin's SOI
+			id = bd35a4c6-9d85-4da4-bbdd-ef402d4b8289
+			description = Leave Kerbin's sphere of influence heading towards Duna
+			category = Location
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 2400,150
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = SOILeft
+			basicNodeIconURL = leave-soi
+			nodeColor = #73D2D6
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = b916c8d0-0c93-404c-8b92-3bcbf00ebcb4
+					connectorColor = #FFFFFF
+				}
+				FROMNODE
+				{
+					nodeID = 6ffa5a4c-200c-4a30-b021-54143ef021bb
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 6b68812d-758a-4cdc-8472-a8bbd2ad1f85
+				nodeID = 3238c0b5-fdae-42da-8f01-08e2c1c6ce86
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestSOILeft
+						title = Left SOI
+						parametersDisplayedInSAP = vesselID
+						parametersDisplayedInSAP = missionBody
+						vesselID = 873520879
+						bodyName = Kerbin
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestSOILeft
+					parameter = vesselID
+				}
+				MODULE_PARAMETER
+				{
+					module = TestSOILeft
+					parameter = missionBody
+				}
+			}
+		}
+		NODE
+		{
+			title = Gear Broken Messagge
+			id = 30416ee2-72e8-4cfd-9a1a-f368fb930ddb
+			description = Gear broken!
+			category = Utility
+			showScreenMessage = False
+			msgTime = 9
+			editorPosition = 3000,75
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = DialogMessage
+			basicNodeIconURL = dialog-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 6b68812d-758a-4cdc-8472-a8bbd2ad1f85
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 8eb81735-7c09-4219-bbf2-edcf267e0278
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionDialogMessage
+					title = Dialog Message
+					parametersDisplayedInSAP = messageHeading
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = missionInstructor
+					restartOnSceneLoad = False
+					isRunning = False
+					messageHeading = Landing gear broken!
+					message = Commander, the landing gear has broken. Too many moving parts. We need to fix this before we land. I can repair it but I'll need to EVA.
+					instructorName = Instructor_Bill_MaleVeteran
+					vintageSuit = False
+					textAreaSize = 135
+					pauseMission = True
+					screenArea = Center
+					autoClose = False
+					autoCloseTimeOut = 20
+					isBriefingMessage = False
+					autoGrowDialogHeight = False
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionDialogMessage
+					parameter = missionInstructor
+				}
+			}
+		}
+		NODE
+		{
+			title = Wait 5 Seconds
+			id = 384ad33f-48a8-4e2b-b3f0-c1e04d65e9b7
+			description = Check time since a chosen node
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 5700,75
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = True
+			basicNodeSource = TestTimeSinceNode
+			basicNodeIconURL = time-since-node
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 55855c76-30ad-413c-bbac-f02e90843d2a
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = f2cc9097-83df-4be1-8159-1e845c704575
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestTimeSinceNode
+						title = Time Since Node
+						parametersDisplayedInSAP = time
+						parametersDisplayedInSAP = nodeID
+						nodeID = 6b646f2c-84da-4d83-96df-f00afac16fd1
+						time = 5
+						comparisonOperator = GreaterThan
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestTimeSinceNode
+					parameter = time
+				}
+			}
+		}
+		NODE
+		{
+			title = Plant Flag
+			id = a4e7a1c9-f36c-4177-948b-c20b7e7e05a8
+			description = Send Jeb to plant a flag
+			category = Location
+			showScreenMessage = True
+			msgTime = 5
+			editorPosition = 6634.73926,-56.1665268
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = PlantFlag
+			basicNodeIconURL = plant-flag
+			nodeColor = #73D2D6
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 42a4fb9f-73ca-4516-b865-90f932d456f9
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = cbb336a1-6f44-4655-980d-cadaac05cccc
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestPlantFlag
+						title = Plant Flag
+						parametersDisplayedInSAP = situation
+						locationChoice = bodyData
+						LAUNCHSITEDATA = LaunchPad
+						eventFound = False
+						BODYDATA
+						{
+							bodyName = Duna
+						}
+						BIOMEDATA
+						{
+							bodyName = Kerbin
+						}
+						GROUNDAREA
+						{
+							bodyName = Kerbin
+							lat = 0
+							lon = 0
+							alt = 0
+							radius = 150000
+						}
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestPlantFlag
+					parameter = situation
+				}
+			}
+		}
+		NODE
+		{
+			title = Engine Failure
+			id = f2cc9097-83df-4be1-8159-1e845c704575
+			description = Engine failure has occurred
+			category = Vessel
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 6000,75
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = PartFailure
+			basicNodeIconURL = fail-part
+			nodeColor = #3F8CED
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 384ad33f-48a8-4e2b-b3f0-c1e04d65e9b7
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = afd8c730-b64a-40a7-9ad6-87ce567a8afc
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionPartFailure
+					title = Fail Part
+					parametersDisplayedInSAP = vesselPartIDs
+					parametersDisplayedInSAP = Modules
+					restartOnSceneLoad = False
+					isRunning = False
+					partPersistentId = 0
+					vesselPersistentId = 873520879
+					partName = Any
+					MODULES
+					{
+						MODULE
+						{
+							name = FailureEnginesDeadEngine
+							id = 1190
+							canBeRepaired = False
+							adjusterID = 4b866c08-147f-4084-91cb-5a79c14ba8c5
+						}
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionPartFailure
+					parameter = vesselPartIDs
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionPartFailure
+					parameter = Modules
+				}
+			}
+		}
+		NODE
+		{
+			title = Repair Part
+			id = cbb336a1-6f44-4655-980d-cadaac05cccc
+			description = Repair a part failure
+			category = Vessel
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 6867.69141,325.047607
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = PartRepair
+			basicNodeIconURL = repair-part
+			nodeColor = #3F8CED
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = a4e7a1c9-f36c-4177-948b-c20b7e7e05a8
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = d422a6cb-b2be-4be2-a90e-b56d9f84b71c
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionPartRepair
+					title = Repair Part
+					parametersDisplayedInSAP = vesselID
+					parametersDisplayedInSAP = repairType
+					restartOnSceneLoad = False
+					isRunning = False
+					partPersistentId = 0
+					vesselPersistentId = 873520879
+					partName = Any
+					repairType = entireVessel
+					partModule = 
+					failureID = 4b866c08-147f-4084-91cb-5a79c14ba8c5
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionPartRepair
+					parameter = vesselID
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionPartRepair
+					parameter = repairType
+				}
+			}
+		}
+		NODE
+		{
+			title = Dialog Message
+			id = afd8c730-b64a-40a7-9ad6-87ce567a8afc
+			description = Engine troubles
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 6304,74.999939
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = DialogMessage
+			basicNodeIconURL = dialog-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = f2cc9097-83df-4be1-8159-1e845c704575
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 42a4fb9f-73ca-4516-b865-90f932d456f9
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionDialogMessage
+					title = Dialog Message
+					parametersDisplayedInSAP = messageHeading
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = missionInstructor
+					restartOnSceneLoad = False
+					isRunning = False
+					messageHeading = Engine troubles
+					message = Commander, we have a problem with one of our engines. I should be able to get it fixed but it will take a few minutes. Head back to the surface and plant a flag. I'll have it resolved by the time you return. (Send Jeb to plant a flag)
+					instructorName = Instructor_Bill_MaleVeteran
+					vintageSuit = False
+					textAreaSize = 135
+					pauseMission = True
+					screenArea = Center
+					autoClose = False
+					autoCloseTimeOut = 20
+					isBriefingMessage = False
+					autoGrowDialogHeight = False
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionDialogMessage
+					parameter = missionInstructor
+				}
+			}
+		}
+		NODE
+		{
+			title = Dialog Message
+			id = d422a6cb-b2be-4be2-a90e-b56d9f84b71c
+			description = Engine fixed
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 6954.16699,135.404755
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = DialogMessage
+			basicNodeIconURL = dialog-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = cbb336a1-6f44-4655-980d-cadaac05cccc
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = eacae683-ae73-4e44-91db-db6e04ef7d4f
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionDialogMessage
+					title = Dialog Message
+					parametersDisplayedInSAP = messageHeading
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = missionInstructor
+					restartOnSceneLoad = False
+					isRunning = False
+					messageHeading = Engine fixed
+					message = I have fixed the engine problem, commander. We may proceed.
+					instructorName = Instructor_Bill_MaleVeteran
+					vintageSuit = False
+					textAreaSize = 135
+					pauseMission = True
+					screenArea = Center
+					autoClose = False
+					autoCloseTimeOut = 20
+					isBriefingMessage = False
+					autoGrowDialogHeight = False
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionDialogMessage
+					parameter = missionInstructor
+				}
+			}
+		}
+		NODE
+		{
+			title = Launch Direct To Duna
+			id = b916c8d0-0c93-404c-8b92-3bcbf00ebcb4
+			description = Launch the vessel to Duna
+			category = Location
+			showScreenMessage = True
+			msgTime = 8
+			editorPosition = 1863.21411,97.4761047
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = True
+			basicNodeSource = VesselAltitudeGoal
+			basicNodeIconURL = test-altitude
+			nodeColor = #73D2D6
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = a7eed285-5357-454c-91a5-e5ec82c3bba4
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = bd35a4c6-9d85-4da4-bbdd-ef402d4b8289
+				nodeID = 6ffa5a4c-200c-4a30-b021-54143ef021bb
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestVesselAltitude
+						title = Test Altitude
+						parametersDisplayedInSAP = altitude
+						parametersDisplayedInSAP = useRadarAltimiter
+						parametersDisplayedInSAP = vesselID
+						vesselID = 0
+						altitude = 70000
+						useRadarAltimiter = True
+						comparisonOperator = GreaterThan
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestVesselAltitude
+					parameter = altitude
+				}
+				MODULE_PARAMETER
+				{
+					module = TestVesselAltitude
+					parameter = useRadarAltimiter
+				}
+			}
+		}
+		NODE
+		{
+			title = Entering Orbit
+			id = 6ffa5a4c-200c-4a30-b021-54143ef021bb
+			description = Entering Orbit
+			category = Utility
+			showScreenMessage = True
+			msgTime = 5
+			editorPosition = 2073.84521,343.142822
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = Message
+			basicNodeIconURL = display-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = b916c8d0-0c93-404c-8b92-3bcbf00ebcb4
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = bd35a4c6-9d85-4da4-bbdd-ef402d4b8289
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionMessage
+					title = Display Message
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = duration
+					parametersDisplayedInSAP = style
+					restartOnSceneLoad = False
+					isRunning = False
+					message = Duna Direct has entered orbit!
+					duration = 5
+					style = UPPER_LEFT
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionMessage
+					parameter = message
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionMessage
+					parameter = duration
+				}
+			}
+		}
+		NODE
+		{
+			title = Camera Mode
+			id = a7eed285-5357-454c-91a5-e5ec82c3bba4
+			description = Change and Lock the camera mode for the player
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 1243.65454,244.264343
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = SetCamera
+			basicNodeIconURL = camera-mode-action-node
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = b514af52-7ceb-4151-b077-6934f28c2e86
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = b916c8d0-0c93-404c-8b92-3bcbf00ebcb4
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionSetCamera
+					title = Camera Mode
+					parametersDisplayedInSAP = cameraLockMode
+					parametersDisplayedInSAP = cameraLockOptions
+					restartOnSceneLoad = False
+					isRunning = False
+					cameraTypeOptions = IVA
+					cameraLockOptions = Unlock
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionSetCamera
+					parameter = cameraLockMode
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionSetCamera
+					parameter = cameraLockOptions
+				}
+			}
+		}
+		NODE
+		{
+			title = Ready for launch!
+			id = b514af52-7ceb-4151-b077-6934f28c2e86
+			description = Display a message in a dialog box
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 769.523682,343.30957
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = DialogMessage
+			basicNodeIconURL = dialog-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = a7be174a-1948-4018-a468-5b80a718d9af
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = a7eed285-5357-454c-91a5-e5ec82c3bba4
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionDialogMessage
+					title = Dialog Message
+					parametersDisplayedInSAP = messageHeading
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = missionInstructor
+					restartOnSceneLoad = False
+					isRunning = False
+					messageHeading = Ready for launch!
+					message = All crew report ready for launch. Vessel checks complete. Launch to Duna!
+					instructorName = Instructor_Gene
+					vintageSuit = False
+					textAreaSize = 135
+					pauseMission = True
+					screenArea = Center
+					autoClose = False
+					autoCloseTimeOut = 20
+					isBriefingMessage = False
+					autoGrowDialogHeight = False
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionDialogMessage
+					parameter = missionInstructor
+				}
+			}
+		}
+		NODE
+		{
+			title = Entering Duna's SOI
+			id = e5758ab7-0080-4258-a0ff-c58d7fd68032
+			description = Now entering Duna's SOI
+			category = Utility
+			showScreenMessage = True
+			msgTime = 5
+			editorPosition = 3574.70215,419.002686
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = Message
+			basicNodeIconURL = display-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 8eb81735-7c09-4219-bbf2-edcf267e0278
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 6909555f-1ba1-44b3-b168-43ad6928c85d
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionMessage
+					title = Display Message
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = duration
+					parametersDisplayedInSAP = style
+					restartOnSceneLoad = False
+					isRunning = False
+					message = You are now entering Duna's sphere of influence
+					duration = 5
+					style = UPPER_LEFT
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionMessage
+					parameter = message
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionMessage
+					parameter = duration
+				}
+			}
+		}
+		NODE
+		{
+			title = Entering Kerbin SOI
+			id = ed20f4b2-0f2a-4873-bfc6-1ec4c6c5a7a1
+			description = Entering Kerbin SOI
+			category = Utility
+			showScreenMessage = True
+			msgTime = 5
+			editorPosition = 7963.06006,445.597839
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = Message
+			basicNodeIconURL = display-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = c727306e-a8ac-4211-8a6c-492461e895f7
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = a03b4f57-9998-46ac-b548-08c40976b500
+				nodeID = d6cc7ade-9553-44e4-9ae1-806e2087f3cc
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionMessage
+					title = Display Message
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = duration
+					parametersDisplayedInSAP = style
+					restartOnSceneLoad = False
+					isRunning = False
+					message = You have entered Kerbin's sphere of influence
+					duration = 5
+					style = UPPER_LEFT
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionMessage
+					parameter = message
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionMessage
+					parameter = duration
+				}
+			}
+		}
+		NODE
+		{
+			title = Kerbal Boarded
+			id = eacae683-ae73-4e44-91db-db6e04ef7d4f
+			description = Checking that Jebediah is onboard
+			category = Kerbal
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 7145.17822,-209.425934
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = TestKerbalBoarded
+			basicNodeIconURL = kerbal-boarded
+			nodeColor = #08AE55
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = d422a6cb-b2be-4be2-a90e-b56d9f84b71c
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = fcecc028-4e3f-4e41-9108-928a625c24e7
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestKerbalBoarded
+						title = Kerbal Boarded
+						parametersDisplayedInSAP = missionKerbal
+						kerbalName = Jebediah Kerman
+						kerbalType = Crew
+						locationChoice = bodyData
+						LAUNCHSITEDATA = LaunchPad
+						vesselID = 0
+						BODYDATA
+						{
+							bodyName = Duna
+						}
+						BIOMEDATA
+						{
+							bodyName = Kerbin
+						}
+						GROUNDAREA
+						{
+							bodyName = Kerbin
+							lat = 0
+							lon = 0
+							alt = 0
+							radius = 150000
+						}
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestKerbalBoarded
+					parameter = missionKerbal
+				}
+			}
+		}
+		NODE
+		{
+			title = Launch camera
+			id = fcecc028-4e3f-4e41-9108-928a625c24e7
+			description = Launch Camera
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 7539.91699,-612.592834
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = SetCamera
+			basicNodeIconURL = camera-mode-action-node
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = eacae683-ae73-4e44-91db-db6e04ef7d4f
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 11a0560b-bdaf-4656-9507-b64ab869d69e
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionSetCamera
+					title = Camera Mode
+					parametersDisplayedInSAP = cameraLockMode
+					parametersDisplayedInSAP = cameraLockOptions
+					restartOnSceneLoad = False
+					isRunning = False
+					cameraTypeOptions = IVA
+					cameraLockOptions = Unlock
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionSetCamera
+					parameter = cameraLockMode
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionSetCamera
+					parameter = cameraLockOptions
+				}
+			}
+		}
+		NODE
+		{
+			title = Launch to Kerbin
+			id = 11a0560b-bdaf-4656-9507-b64ab869d69e
+			description = Launch to Kerbin
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 7566.60693,-386.425995
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = DialogMessage
+			basicNodeIconURL = dialog-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = fcecc028-4e3f-4e41-9108-928a625c24e7
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = ad3cfcc2-e76c-4eb6-a068-82ecc3eddf04
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionDialogMessage
+					title = Dialog Message
+					parametersDisplayedInSAP = messageHeading
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = missionInstructor
+					restartOnSceneLoad = False
+					isRunning = False
+					messageHeading = Launch to Kerbin
+					message = All crew back onboard. Vessel checks complete. Begin Kerbin return launch.
+					instructorName = Instructor_Val_FemaleVeteran
+					vintageSuit = False
+					textAreaSize = 135
+					pauseMission = True
+					screenArea = Center
+					autoClose = False
+					autoCloseTimeOut = 20
+					isBriefingMessage = False
+					autoGrowDialogHeight = False
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionDialogMessage
+					parameter = missionInstructor
+				}
+			}
+		}
+		NODE
+		{
+			title = Kerbal EVA
+			id = 42a4fb9f-73ca-4516-b865-90f932d456f9
+			description = Check for a Kerbal going on EVA
+			category = Kerbal
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 6327.62793,-159.497772
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = EVA
+			basicNodeIconURL = test-eva
+			nodeColor = #08AE55
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = afd8c730-b64a-40a7-9ad6-87ce567a8afc
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = a4e7a1c9-f36c-4177-948b-c20b7e7e05a8
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestKerbalEVA
+						title = Kerbal EVA
+						parametersDisplayedInSAP = missionKerbal
+						kerbalName = Jebediah Kerman
+						kerbalType = Crew
+						locationChoice = bodyData
+						LAUNCHSITEDATA = LaunchPad
+						vesselID = 0
+						BODYDATA
+						{
+							bodyName = Duna
+						}
+						BIOMEDATA
+						{
+							bodyName = Kerbin
+						}
+						GROUNDAREA
+						{
+							bodyName = Kerbin
+							lat = 0
+							lon = 0
+							alt = 0
+							radius = 150000
+						}
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestKerbalEVA
+					parameter = missionKerbal
+				}
+			}
+		}
+	}
+	TAGS
+	{
+	}
+	FLOW
+	{
+		BLOCKS
+		{
+			NODE
+			{
+				id = 3c1efb75-d9ee-4b45-9370-f2662172881a
+			}
+			NODE
+			{
+				id = fdc2cd00-1c81-424a-8331-4f1a40c89147
+			}
+			NODE
+			{
+				id = a7be174a-1948-4018-a468-5b80a718d9af
+			}
+			NODE
+			{
+				id = b514af52-7ceb-4151-b077-6934f28c2e86
+			}
+			NODE
+			{
+				id = a7eed285-5357-454c-91a5-e5ec82c3bba4
+			}
+			NODE
+			{
+				id = b916c8d0-0c93-404c-8b92-3bcbf00ebcb4
+			}
+			OR
+			{
+				THEN
+				{
+					NODE
+					{
+						id = 6ffa5a4c-200c-4a30-b021-54143ef021bb
+					}
+				}
+			}
+			NODE
+			{
+				id = bd35a4c6-9d85-4da4-bbdd-ef402d4b8289
+			}
+			OR
+			{
+				THEN
+				{
+					NODE
+					{
+						id = 3238c0b5-fdae-42da-8f01-08e2c1c6ce86
+					}
+				}
+			}
+			NODE
+			{
+				id = 6b68812d-758a-4cdc-8472-a8bbd2ad1f85
+			}
+			NODE
+			{
+				id = 30416ee2-72e8-4cfd-9a1a-f368fb930ddb
+			}
+			NODE
+			{
+				id = 8eb81735-7c09-4219-bbf2-edcf267e0278
+			}
+			OR
+			{
+				THEN
+				{
+					NODE
+					{
+						id = e5758ab7-0080-4258-a0ff-c58d7fd68032
+					}
+				}
+			}
+			NODE
+			{
+				id = 6909555f-1ba1-44b3-b168-43ad6928c85d
+			}
+			NODE
+			{
+				id = e731eb99-8ccf-45b2-9a93-c52a30520e40
+			}
+			NODE
+			{
+				id = 9d483a40-cacd-449b-9068-fd3d1d22c039
+			}
+			NODE
+			{
+				id = 338b9110-dcb4-47d0-a3a7-8406c4b1ff2d
+			}
+			NODE
+			{
+				id = aaae4e81-f452-4c6b-9d45-994258a12f1c
+			}
+			NODE
+			{
+				id = 3ca17bf1-1a6e-438c-b115-e9ba6856b72f
+			}
+			NODE
+			{
+				id = 55855c76-30ad-413c-bbac-f02e90843d2a
+			}
+			NODE
+			{
+				id = 384ad33f-48a8-4e2b-b3f0-c1e04d65e9b7
+			}
+			NODE
+			{
+				id = f2cc9097-83df-4be1-8159-1e845c704575
+			}
+			NODE
+			{
+				id = afd8c730-b64a-40a7-9ad6-87ce567a8afc
+			}
+			NODE
+			{
+				id = 42a4fb9f-73ca-4516-b865-90f932d456f9
+			}
+			NODE
+			{
+				id = a4e7a1c9-f36c-4177-948b-c20b7e7e05a8
+			}
+			NODE
+			{
+				id = cbb336a1-6f44-4655-980d-cadaac05cccc
+			}
+			NODE
+			{
+				id = d422a6cb-b2be-4be2-a90e-b56d9f84b71c
+			}
+			NODE
+			{
+				id = eacae683-ae73-4e44-91db-db6e04ef7d4f
+			}
+			NODE
+			{
+				id = fcecc028-4e3f-4e41-9108-928a625c24e7
+			}
+			NODE
+			{
+				id = 11a0560b-bdaf-4656-9507-b64ab869d69e
+			}
+			NODE
+			{
+				id = ad3cfcc2-e76c-4eb6-a068-82ecc3eddf04
+			}
+			OR
+			{
+				THEN
+				{
+					NODE
+					{
+						id = bebea0a0-fff7-41c5-a8bc-afd69247d333
+					}
+				}
+			}
+			NODE
+			{
+				id = c727306e-a8ac-4211-8a6c-492461e895f7
+			}
+			NODE
+			{
+				id = ed20f4b2-0f2a-4873-bfc6-1ec4c6c5a7a1
+			}
+			OR
+			{
+				THEN
+				{
+					NODE
+					{
+						id = a03b4f57-9998-46ac-b548-08c40976b500
+					}
+				}
+				THEN
+				{
+					NODE
+					{
+						id = d6cc7ade-9553-44e4-9ae1-806e2087f3cc
+					}
+				}
+			}
+		}
+	}
+}
+EDITOR_STATUS
+{
+	canvasPosition = 1454.73499,224.573807,0
+	zoomLevel = 0.699999988
+}
